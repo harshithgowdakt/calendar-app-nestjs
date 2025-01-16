@@ -6,8 +6,9 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
 } from 'typeorm';
-import { User } from '../user/user.entity';
+
 import { Event } from '../event/event.entity';
+import { User } from '../user/user.entity';
 
 @Entity('notifications')
 export class Notification {

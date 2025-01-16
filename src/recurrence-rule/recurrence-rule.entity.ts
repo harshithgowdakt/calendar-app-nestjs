@@ -6,6 +6,7 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
 } from 'typeorm';
+
 import { Event } from '../event/event.entity';
 
 @Entity('recurrence_rules')

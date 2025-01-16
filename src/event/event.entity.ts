@@ -6,6 +6,7 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
 } from 'typeorm';
+
 import { Calendar } from '../calendar/calendar.entity';
 
 @Entity('events')

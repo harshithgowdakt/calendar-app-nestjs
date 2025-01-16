@@ -1,4 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
+
 import { RecurrenceRuleController } from './recurrence-rule.controller';
 
 describe('RecurrenceRuleController', () => {

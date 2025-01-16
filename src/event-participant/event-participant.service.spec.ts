@@ -1,4 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
+
 import { EventParticipantService } from './event-participant.service';
 
 describe('EventParticipantService', () => {

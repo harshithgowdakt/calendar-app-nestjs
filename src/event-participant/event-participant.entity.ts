@@ -6,6 +6,7 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
 } from 'typeorm';
+
 import { Event } from '../event/event.entity';
 import { User } from '../user/user.entity';
 

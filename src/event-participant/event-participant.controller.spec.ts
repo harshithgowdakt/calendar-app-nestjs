@@ -1,4 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
+
 import { EventParticipantController } from './event-participant.controller';
 
 describe('EventParticipantController', () => {
@@ -9,7 +10,9 @@ describe('EventParticipantController', () => {
       controllers: [EventParticipantController],
     }).compile();
 
-    controller = module.get<EventParticipantController>(EventParticipantController);
+    controller = module.get<EventParticipantController>(
+      EventParticipantController,
+    );
   });
 
   it('should be defined', () => {
